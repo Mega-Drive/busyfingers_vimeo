@@ -626,7 +626,7 @@ video
     position: absolute;
     top: 50% !important;
     left: 50% !important	;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%) scale(1.005);
     width: 100vw;
     height: 100vh;
 }
