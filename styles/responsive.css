@@ -1,0 +1,472 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	.about_slide
+    {
+        /* height: 390px; */
+    }
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.why_choose_us h2
+    {
+        max-width: 100%;
+    }
+    .service
+    {
+        width: 100%;
+    }
+    .features_title
+    {
+        margin-bottom: 32px;
+        max-width: 100%;
+    }
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+    h2
+    {
+        font-size: 44px;
+    }
+	.about_title
+    {
+        font-size: 72px;
+    }
+    .header_social_container
+    {
+        display: none;
+    }
+    .services
+    {
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+    .services h3,
+    .services p
+    {
+        font-size: 24px;
+    }
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.hero_content
+    {
+        max-width: 100%;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+    h2
+    {
+        font-size: 44px;
+    }
+    .button
+    {
+        font-size: 28px;
+    }
+    .header_inner
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .header-logo img
+    {
+        width: 52px;
+        height: 57px;
+    }
+    .header-logo span
+    {
+        font-size: 26px;
+    }
+    .menu_header_inner
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .menu_nav ul li a
+    {
+        font-size: 72px;
+    }
+    .hamburger_container
+    {
+        width: 66px;
+        height: 46px;
+    }
+    .hamburger > span
+    {
+        height: 3px;
+    }
+	.about_title
+    {
+        font-size: 52px;
+    }
+    .hero_content h1
+    {
+        font-size: 64px;
+    }
+    .hero_content h1 span
+    {
+        font-size: 52px;
+    }
+    .about_slider_container
+    {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .why_choose_us
+    {
+        padding-top: 116px;
+        padding-bottom: 116px;
+    }
+    .callout-statement-row
+    {
+        margin-top: 58px;
+    }
+    .what_makes_us_different_row
+    {
+        padding-top: 116px;
+    }
+    .services
+    {
+        padding-top: 134px;
+        padding-bottom: 134px;
+    }
+    .services_reel_logo
+    {
+        right: 16px;
+        bottom: 16px;
+        width: 52px;
+        height: 57px;
+    }
+    .services_reel_play_button
+    {
+        width: 40px;
+        height: 47px;
+    }
+    .services_title,
+    .work_title
+    {
+        font-size: 52px;
+    }
+    .services h3
+    {
+        margin-bottom: 24px;
+    }
+    .work
+    {
+        padding-bottom: 158px;
+    }
+    .work_container
+    {
+        margin-top: 82px;
+    }
+    .work_cta
+    {
+        padding-top: 138px;
+    }
+    .work_cta_title
+    {
+        font-size: 40px;
+    }
+    .work_cta_desc
+    {
+        font-size: 20px;
+        margin-top: 44px;
+    }
+    .work_cta_button
+    {
+        margin-top: 61px;
+    }
+    .copyright
+    {
+        text-align: center;
+    }
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.work_item
+    {
+        width: 100% !important;
+    }
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+    h2
+    {
+        font-size: 32px;
+    }
+    p
+    {
+        font-size: 20px;
+    }
+    .header_inner
+    {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header-logo img
+    {
+        width: 44px;
+        height: 48px;
+    }
+    .header-logo span
+    {
+        margin-left: 4px;
+    }
+    .menu_header_inner
+    {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .menu_nav ul li:not(:last-child)
+    {
+        margin-bottom: 20px;
+    }
+    .menu_nav ul li a
+    {
+        font-size: 52px;
+    }
+    .about
+    {
+        padding-top: 96px;
+    }
+    .about_content
+    {
+        padding-bottom: 92px;
+    }
+	.about_title
+    {
+        font-size: 40px;
+    }
+    .about_text
+    {
+        margin-top: 30px;
+    }
+    .button
+    {
+        height: 64px;
+        padding-left: 33px;
+        padding-right: 33px;
+        border-radius: 16px;
+        font-size: 24px;
+        line-height: 67px;
+        margin-top: 31px;
+    }
+    .hero_content h1
+    {
+        font-size: 48px;
+    }
+    .hero_content h1 span
+    {
+        font-size: 40px;
+    }
+    .why_choose_us
+    {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    .why_choose_us h2
+    {
+        margin-bottom: 16px;
+    }
+    .what_makes_us_different_row
+    {
+        padding-top: 114px;
+    }
+    .callout-statement-row
+    {
+        margin-top: 60px;
+    }
+    .services_reel_container
+    {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .services h3, .services p
+    {
+        font-size: 20px;
+    }
+    .services_title,
+    .work_title
+    {
+        font-size: 40px;
+    }
+    .services h3
+    {
+        margin-bottom: 16px;
+    }
+    .services_content
+    {
+        margin-top: 62px;
+    }
+    .service
+    {
+        margin-bottom: 29px;
+    }
+    .work_container
+    {
+        margin-top: 81px;
+    }
+    .work_cta_button,
+    .features_cta_button
+    {
+        height: auto;
+        line-height: 26px;
+    }
+    .faq_item button
+    {
+        font-size: 20px;
+    }
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
