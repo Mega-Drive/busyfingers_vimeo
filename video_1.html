@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>video</title>
+<!-- <link rel="icon" href="images/favicon.png"> -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="busyfingers project - AI video production">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-5.3.8/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles/video.css">
+<link rel="stylesheet" type="text/css" href="styles/video_responsive.css">
+<script src="https://player.vimeo.com/api/player.js"></script>
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- MENU -->
+	<nav class="menu trans_200">
+		<div class="menu_inner d-flex flex-column align-items-center">
+			<div class="menu_header_inner d-flex flex-row align-items-center justify-content-between">
+				<div class="header-logo">
+					<a href="#" class="d-flex flex-row align-items-center"><img src="images/logo_white.svg" alt="" aria-hidden="true"><span>busyfingers</span></a>
+				</div>
+				<!-- Hamburger -->
+				<div class="menu_close">
+					<button class="close">
+						<span class="d-flex flex-column align-items-center justify-content-center">
+							<span></span>
+							<span></span>
+						</span>
+					</button>
+				</div>
+			</div>
+			<div class="menu_nav">
+				<ul class="d-flex flex-column align-items-center justify-content-center">
+					<li><a href="index.html#about">About</a></li>
+					<li><a href="index.html#services">Services</a></li>
+					<li><a href="index.html#work">Work</a></li>
+					<li><a href="index.html#faq">FAQ</a></li>
+					<li><a href="index.html#connect">Connect</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- HEADER -->
+	<header class="header dark" id="header">
+		<div class="header_inner d-flex flex-row align-items-center justify-content-between">
+			<div class="header-logo">
+                <a href="#" class="d-flex flex-row align-items-center"><img src="images/logo_white.svg" alt="" aria-hidden="true"><span>busyfingers</span></a>
+            </div>
+			<div class="header_content d-flex flex-row align-items-center">
+				<!-- Hamburger -->
+				<div class="hamburger_container">
+					<button class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- MAIN CONTENT -->
+	<main>
+		<section class="video_section">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="video_container_outer">
+							<div class="video_container">
+								<iframe class="about_video" src="https://player.vimeo.com/video/1132186482?controls=0&preload=auto&muted=true" 
+										width="100%" height="100%" 
+										frameborder="0" >
+								</iframe>
+								<div class="video_overlay"></div>
+							</div>
+							<button class="play_button">
+								<svg width="53" height="62" viewBox="0 0 53 62" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M53 30.66L0 61.32V6.55651e-06L53 30.66Z" fill="white"/></svg>
+							</button>
+						</div>
+						<div class="video_content">
+							<h1 class="work_title">Kling 3.0 — Out of Script</h1>
+							<p class="work_client"><strong>Client: </strong>Open Art</p>
+							<p class="work_description">A fast-paced, meta-driven commercial where characters become aware they are inside an AI-generated world. Each scene shift reveals a new environment, pushing the boundaries of timing, control, and narrative flexibility. An exploration of multi-scene storytelling, seamless transitions, and stylized realism powered by Kling 3.0.</p>
+							<div class="work_meta">
+								<p>Concept, Direction & AI Production</p>
+								<p>Vittorio Guidotti — Busyfingers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</section>
+	</main>
+
+	<!-- FOOTER -->
+	<footer class="footer light-theme">
+			
+	</footer>
+
+</div>
+
+<!-- Core libraries -->
+<script src="js/jquery-3.7.1.min.js" defer></script>
+<script src="styles/bootstrap-5.3.8/popper.js" defer></script>
+<script src="styles/bootstrap-5.3.8/bootstrap.min.js" defer></script>
+
+<!-- Plugins -->
+
+<!-- Custom logic -->
+<script src="js/video.js" defer></script>
+</body>
+</html>

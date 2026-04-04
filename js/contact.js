@@ -7,10 +7,7 @@
 1. Vars and Inits
 2. Init Header
 3. Init Menu
-4. About Slider
-5. Services Reel
-6. Init Faq
-7. Init Video
+4. Init Contact
 
 
 ******************************/
@@ -27,10 +24,7 @@ $(document).ready(function()
 
 	initHeader();
 	initMenu();
-	initAboutSlider();
-	initServicesReel();
-	initFaq();
-	initVideo();
+	initContact();
 
 	document.addEventListener('DOMContentLoaded', initHeader);
 
@@ -154,132 +148,17 @@ $(document).ready(function()
 
 	/* 
 
-	4. About Slider
+	4. Init Contact
 
 	*/
 
-	function initAboutSlider()
+	function initContact()
 	{
-		const slider = $('.about_slider');
-		if(!slider) return;
-
-		slider.owlCarousel(
+		document.querySelector("#contact_form").addEventListener("submit", function (e)
 		{
-			items: 2,
-			loop: true,
-			margin: 24,
-			autoplay: false,
-			autoplayHoverPause: true,
-			dots: false,
-			nav: false,
-			responsive:
-			{
-				0:
-				{
-					items: 1,
-					margin: 16
-				},
-				576:
-				{
-					items: 1,
-					margin: 16
-				},
-				768:
-				{
-					items: 2,
-					margin: 16
-				},
-				769:
-				{
-					items: 2,
-					margin: 24
-				}
-			}
-		});
-	}
-
-	/* 
-
-	5. Services Reel
-
-	*/
-
-	function initServicesReel()
-	{
-		const $wrapper = $(".services_video");
-		const iframe = $wrapper.find('iframe')[0];
-		const player = new Vimeo.Player(iframe);
-		const overlay = $('.services_video_overlay');
-		const btn = $('.services_reel_play_button');
-
-		
-		overlay.on('click', function()
-		{
-			player.getPaused().then(function(paused)
-			{
-				if(paused)
-				{
-					player.play();
-					btn.toggleClass("hide");
-				}
-				else
-				{
-					player.pause();
-					btn.toggleClass("hide");
-				}
-			});
-		});
-	}
-
-	/* 
-
-	6. Init Faq
-
-	*/
-
-	function initFaq()
-	{
-		if($('#faq_accordion'))
-		{
-			const acc = $('#faq_accordion');
-			acc.accordionjs(
-			{
-				closeAble: true,
-				slideSpeed  : 200,
-				activeIndex: false
-			});
-		}
-	}
-
-	/* 
-
-	7. Init Video
-
-	*/
-
-	function initVideo()
-	{
-		$('.about_slide').each(function()
-		{
-			const $wrapper = $(this);
-			const iframe = $wrapper.find('iframe')[0];
-			const player = new Vimeo.Player(iframe);
-
-			$wrapper.on('mouseenter', function()
-			{
-				player.play().catch(function(error)
-				{
-					if (error.name === 'PlayInterrupted')
-					{
-						console.log("Hover play was interrupted.");
-					}
-				});
-			});
-
-			$wrapper.on('mouseleave', function()
-			{
-				player.pause();
-			});
+			e.preventDefault();
+			document.querySelector(".form-status").textContent = "Message sent successfully!";
+			document.querySelector(".form-status").classList.add("visible");
 		});
 	}
 
