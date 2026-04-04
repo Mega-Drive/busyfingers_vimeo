@@ -133,7 +133,7 @@ p::selection
 	
 }
 h1{font-size: 24px;}
-h2{font-size: 20px;}
+h2{font-size: 24px;}
 h3{font-size: 16px;}
 h4{font-size: 16px;}
 h5{font-size: 14px;}
@@ -479,7 +479,7 @@ video
 .header-logo span
 {
 	font-size: 34px;
-	font-weight: 400;
+	font-weight: 700;
 	color: #ffffff;
 }
 .hamburger_container
@@ -651,6 +651,14 @@ video
 .work_meta
 {
 	margin-top: 34px;
+}
+.awards
+{
+	margin-top: 34px;
+}
+.awards > h2:not(:first-child)
+{
+	margin-top: 12px;
 }
 
 /*********************************
